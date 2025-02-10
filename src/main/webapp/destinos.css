@@ -1,0 +1,265 @@
+img {
+    width: 250px;
+    margin-right: 10px;
+}
+
+table {
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+#google_translate_element {
+    display: inline-block;
+    max-width: 150px; /* Ajusta según lo que necesites */
+    overflow: hidden;
+}
+.goog-te-gadget {
+    font-size: 12px !important;
+}
+
+.desc{
+    border: 5px solid black;
+    width: 60%;
+}
+
+h3{
+   text-align: center;
+}
+
+//
+.header-container {
+  padding: 10px 20px;
+}
+.header-container .actions ul li {
+    color: #ffffff;
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.header-container .actions ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.header-container .actions ul li a:hover {
+    color: #FFD700;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.actions ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.actions ul li {
+    display: inline-block;
+}
+
+.actions ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.actions ul li a:hover {
+    color: #8EB5E1;
+}
+
+.actions .reg a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #003366;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.actions .reg a:hover {
+    background-color: #8EB5E1;
+}
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4f56d9;
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sticky-header.scrolled {
+  background-color: #4f56d9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.sticky-header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.sticky-header .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.sticky-header .nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.sticky-header .nav ul li a:hover {
+    color: #002E5D;
+}
+
+footer {
+    width: 100%;
+    background-color: #3e3e44;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h2.title1 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+footer .cajas-container h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer .linea-social {
+    width: 100%;
+    margin: 10px auto;
+    border-top: 2px solid white;
+}
+.social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 0 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    transition: all 0.3s;
+}
+
+.social-icons a:hover {
+    color: #1f1abc;
+    border-color: #1f1abc;
+    background-color: white;
+}
+footer .cajas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+footer .Caja1, footer .Caja2, footer .Caja3 {
+    flex: 1;
+    min-width: 280px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #3e3e44;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.newsletter-form label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #00293C;
+    font-size: 30px;
+    width: 30px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.newsletter-form input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 250px;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    background-color: #D9534F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #B03A2E;
+}
+
+.map-container img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+}

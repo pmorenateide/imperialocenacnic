@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+form {
+    width: 300px;
+    text-align: center; /* Centrar el contenido del formulario */
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px; /* Añadir más espacio abajo */
+    font-weight: 300; /* Hacer las letras más finas */
+}
+.login-link {
+    font-size: 14px;
+    margin-bottom: 30px; /* Añadir más espacio abajo */
+    color: #002E5D;
+}
+.login-link a {
+    color: #002E5D;
+    text-decoration: none;
+    font-weight: bold;
+}
+label {
+    display: block;
+    margin-bottom: 10px; /* Añadir más espacio abajo */
+    font-weight: 300; /* Hacer las letras más finas */
+
+}
+input[type="text"], input[type="date"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Añadir más espacio abajo */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: 300; /* Hacer las letras más finas */
+    background-color: #becddd; /* Cambiar color de fondo a azul oscuro */
+    color: #0b0b0b; /* Color de texto blanco para mejor contraste */
+}
+button {
+    width: 107%;
+    padding: 10px;
+    background-color: #012548; /* Azul turquesa oscuro */
+
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 300; /* Hacer las letras más finas */
+
+}
+button:hover {
+    background-color: #333;
+}
